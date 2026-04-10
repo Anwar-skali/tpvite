@@ -1,0 +1,49 @@
+.sidebar {
+    width: 240px;
+    background-color: white;
+    border-right: 1px solid #e0e0e0;
+    transition: margin-left 0.3s ease, opacity 0.3s ease;
+    padding: 1.5rem;
+}
+
+.open {
+    margin-left: 0;
+    opacity: 1;
+}
+
+.closed {
+    margin-left: -240px;
+    opacity: 0;
+}
+
+.title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #757575;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+}
+
+.list {
+    list-style: none;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+    color: #333;
+    font-size: 0.9375rem;
+    cursor: pointer;
+}
+
+.item:hover {
+    color: #1B8C3E;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
