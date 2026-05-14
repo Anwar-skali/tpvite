@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "demo@taskflow.dev",
+      "password": "demo123",
+      "name": "Othmane"
+    }
+  ],
+  "projects": [
+    { "id": "p1", "name": "Backlog produit" },
+    { "id": "p2", "name": "Sprint courant" }
+  ],
+  "columns": [
+    { "id": "c1", "projectId": "p1", "title": "À faire" },
+    { "id": "c2", "projectId": "p1", "title": "En cours" },
+    { "id": "c3", "projectId": "p2", "title": "Todo" }
+  ]
+}
